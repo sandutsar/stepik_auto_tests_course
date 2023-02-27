@@ -10,7 +10,7 @@ FIRST_NAME = (By.XPATH, '//input[@name="firstname"]')
 LAST_NAME = (By.XPATH, '//input[@name="lastname"]')
 EMAIL = (By.XPATH, '//input[@name="email"]')
 FILE = (By.XPATH, '//input[@id="file"]')
-SUBMIT = (By.XPATH, '//button[@class="btn btn-primary"]')
+SUBMIT = (By.XPATH, '//button[@type="submit"]')
 
 current_dir = os.path.abspath(os.path.dirname(__file__))
 file_path = os.path.join(current_dir, 'data.txt')
