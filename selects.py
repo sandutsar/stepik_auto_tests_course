@@ -9,7 +9,7 @@ LINK = 'https://suninjuly.github.io/selects1.html'
 NUM1 = (By.XPATH, '//span[@id="num1"]')
 NUM2 = (By.XPATH, '//span[@id="num2"]')
 SELECT = (By.XPATH, '//select[@id="dropdown"]')
-SUBMIT = (By.XPATH, '//button[@class="btn btn-default"]')
+SUBMIT = (By.XPATH, '//button[@type="submit"]')
 
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 driver.get(LINK)
