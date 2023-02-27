@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import Select
 from webdriver_manager.chrome import ChromeDriverManager
 
 LINK = 'https://suninjuly.github.io/selects1.html'
+
 NUM1 = (By.XPATH, '//span[@id="num1"]')
 NUM2 = (By.XPATH, '//span[@id="num2"]')
 SELECT = (By.XPATH, '//select[@id="dropdown"]')
