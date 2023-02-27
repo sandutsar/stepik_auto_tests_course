@@ -8,7 +8,7 @@ LINK = 'https://suninjuly.github.io/alert_accept.html'
 
 INPUT_VALUE = (By.XPATH, '//span[@id="input_value"]')
 TEXT_FIELD = (By.XPATH, '//input[@id="answer"]')
-SUBMIT = (By.XPATH, '//button[@class="btn btn-primary"]')
+SUBMIT = (By.XPATH, '//button[@type="submit"]')
 
 def calc(x):
   return str(log(abs(12*sin(int(x)))))
