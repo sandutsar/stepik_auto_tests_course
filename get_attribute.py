@@ -10,7 +10,7 @@ IMAGE = (By.XPATH, '//img[@id="treasure"]')
 TEXT_FIELD = (By.XPATH, '//input[@id="answer"]')
 CHECKBOX = (By.XPATH, '//input[@id="robotCheckbox"]')
 RADIOBUTTON = (By.XPATH, '//input[@id="robotsRule"]')
-SUBMIT = (By.XPATH, '//button[@class="btn btn-default"]')
+SUBMIT = (By.XPATH, '//button[@type="submit"]')
 
 def calc(x):
   return str(log(abs(12*sin(int(x)))))
